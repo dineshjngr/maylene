@@ -25,11 +25,17 @@
     const inside = x > 0 && x < h.width && y > 0 && y < h.height;
     callout.style.setProperty('--dot-x', x + 'px');
     callout.style.setProperty('--dot-y', y + 'px');
-    // Beside the pen when there is room to its right, otherwise above it.
-    const cardW = callout.querySelector('.hero__callout-card').offsetWidth || 250;
-    const side = h.width - 14 - x >= cardW + 26;
-    callout.classList.toggle('hero__callout--side', side);
-    callout.style.setProperty('--card-right', Math.min(250, h.width - 14 - x) + 'px');
+    const card = callout.querySelector('.hero__callout-card');
+    const cardW = card.offsetWidth || 260;
+    const cardH = card.offsetHeight || 72;
+    const cardX = h.width - 24 - cardW;
+    const cardY = 24;
+    callout.style.setProperty('--card-x', (cardX - x) + 'px');
+    callout.style.setProperty('--card-y', (cardY - y) + 'px');
+    const dx = cardX + 12 - x;
+    const dy = cardY + cardH - y;
+    callout.style.setProperty('--line-length', Math.hypot(dx, dy) + 'px');
+    callout.style.setProperty('--line-angle', Math.atan2(dy, dx) + 'rad');
     callout.classList.toggle('hero__callout--ready', inside);
   }
   img.complete ? place() : img.addEventListener('load', place, {once: true});

@@ -334,3 +334,4 @@ body.pdp-bar-on .floating-support{bottom:92px}
   .pdp-seal:hover,.coa__item:hover,.pdp-gallery__wish:hover{transform:none}
 }
 .pdp-page .pdp-related,.pdp-page .pdp-band{max-width:1320px}
+@media (min-width:681px) and (max-width:900px){.pdp-gallery__track{aspect-ratio:4/3}}

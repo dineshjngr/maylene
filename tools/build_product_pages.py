@@ -13,8 +13,8 @@ RED = os.path.join(ROOT, "redesign")
 SITE = os.path.join(ROOT, "site")
 DATA = json.load(open(os.path.join(RED, "product-data.json"), encoding="utf-8"))
 HOME = open(os.path.join(RED, "index.html"), encoding="utf-8").read()
-CSS_VERSION = "20261013-pdp-1"
-JS_VERSION = "20261013-pdp-1"
+CSS_VERSION = "20261013-pdp-2"
+JS_VERSION = "20261013-pdp-2"
 
 e = lambda v: html.escape(str(v), quote=True)
 

@@ -55,6 +55,6 @@
   toggle.addEventListener('click', () => { const open = filters.classList.toggle('is-open'); toggle.setAttribute('aria-expanded', String(open)); });
   const params = new URLSearchParams(location.search);
   if (params.get('q')) q.value = params.get('q');
-  const cat = params.get('category'); if (cat) { category = cat; chips.forEach(c => c.classList.toggle('is-active', c.dataset.category === cat)); }
+  const cat = params.get('category') || grid.dataset.defaultCategory; if (cat) { category = cat; chips.forEach(c => c.classList.toggle('is-active', c.dataset.category === cat)); }
   apply();
 })();

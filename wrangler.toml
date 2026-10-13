@@ -1,0 +1,4 @@
+# Cloudflare Pages project config: static design showcase, no server functions.
+name = "maylene"
+pages_build_output_dir = "dist"
+compatibility_date = "2026-09-01"

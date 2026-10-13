@@ -39,6 +39,24 @@ the exported images from `site/`.
 - `redesign/styles.css` — design tokens, typography and components
 - `redesign/v1/` — the first editorial-serif pass, kept for comparison at /redesign/v1/
 
+### Product pages
+
+All 19 product pages are redesigned in the same style and served at their normal URLs,
+e.g. http://127.0.0.1:8765/products/apex-retatrutide-20mg-pen. The mirrored originals stay available
+under `/original/`, e.g. http://127.0.0.1:8765/original/products/apex-retatrutide-20mg-pen.
+
+- `tools/extract_products.py` — reads the mirrored product pages and writes `redesign/product-data.json`
+  (prices, variants, strengths, gallery images, lab reports, accordions, reviews, related products).
+- `tools/build_product_pages.py` — writes `redesign/products/<handle>/index.html` from that data. The
+  announcement bar, header, benefits strip, newsletter and footer are copied from `redesign/index.html`,
+  so rebuild after changing them. It also refreshes `redesign/cart-products.json`.
+- `redesign/product.css` / `redesign/product.js` — page styles and behaviour (gallery, strength and
+  quantity selection, add to cart via the shared basket in `products.js`, sticky buy bar).
+
+```bash
+python3 tools/extract_products.py && python3 tools/build_product_pages.py
+```
+
 Typography: Inter (all text), loaded from Google Fonts. References used for v2: a Framer "Orbix" store
 template (type, structure, CTAs) and the Medilazar pharmacy theme (promo tiles, popular categories,
 health-advice cards).

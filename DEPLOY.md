@@ -1,35 +1,32 @@
-# Deploying the Maylene redesign to Cloudflare Pages
+# Deploying the Maylene redesign to Cloudflare
 
-The redesign is a **static design showcase**. Every page is plain HTML/CSS/JS; there is no server code.
-Cart, checkout, newsletter and contact submissions are not connected in this build.
+The redesign is a **static design showcase** served as a Cloudflare Worker with static assets.
+There is no server code. Cart, checkout, newsletter and contact submissions are not connected.
 
-## One-time setup (Cloudflare dashboard)
+## How the deploy works
 
-1. Push this repository to GitHub (`origin` is `github.com/dineshjngr/maylene`).
-2. Cloudflare dashboard → **Workers & Pages** → **Create** → **Pages** → **Connect to Git** → pick the repo.
-3. Build settings:
+Cloudflare runs `npx wrangler deploy`. `wrangler.toml` tells Wrangler to:
+1. run `python3 tools/build_dist.py`, which assembles every page and asset into `dist/`;
+2. upload `dist/` as static assets, using `dist/404.html` for unknown URLs.
 
-   | Setting | Value |
-   |---|---|
-   | Framework preset | None |
-   | Build command | `python3 tools/build_dist.py` |
-   | Build output directory | `dist` |
-   | Root directory | *(leave empty)* |
+## Cloudflare settings (Workers & Pages → your Worker → Settings → Build)
 
-4. Save and deploy. Every push to `main` redeploys; other branches get preview URLs.
+| Setting | Value |
+|---|---|
+| Git repository | `dineshjngr/maylene`, branch `main` |
+| Build command | *(leave empty)* |
+| Deploy command | `npx wrangler deploy` |
+| Root directory | `/` |
+
+The Worker name in Cloudflare must match `name` in `wrangler.toml` (`maylene`). If your Worker has a different name, change `name` to match.
 
 ## Updating the site
 
-- Edit files in `redesign/` (home page, styles, scripts) and rebuild the generated pages:
-  ```
-  python3 tools/build_pages.py            # content pages (about, learn, guides, faq …)
-  python3 tools/build_product_pages.py    # product detail pages
-  python3 tools/build_dist.py             # assemble dist/ locally to check
-  ```
-- Commit and push; Cloudflare runs `tools/build_dist.py` itself.
+```
+python3 tools/build_pages.py            # regenerate content pages after changing redesign/index.html
+python3 tools/build_product_pages.py    # regenerate product detail pages
+npx wrangler deploy --dry-run           # optional: check the build locally
+```
+Commit and push to `main`; Cloudflare rebuilds and deploys.
 
-## Notes
-
-- `dist/_headers` sets caching and adds `noindex` on `*.pages.dev` preview URLs.
-- `dist/404.html` is the themed not-found page.
-- Local preview with the live-store proxy is still `python3 serve.py` → http://127.0.0.1:8765/.
+Local preview with the live-store proxy is still `python3 serve.py` → http://127.0.0.1:8765/.

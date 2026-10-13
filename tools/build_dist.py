@@ -63,10 +63,6 @@ open(os.path.join(DIST, '_headers'), 'w').write('''/*
 
 /products/pens/*
   Cache-Control: public, max-age=2592000
-
-# Keep preview deployments out of search results.
-https://:project.pages.dev/*
-  X-Robots-Tag: noindex
 ''')
 n = sum(len(f) for _, _, f in os.walk(DIST)); size = sum(os.path.getsize(os.path.join(r, x)) for r, _, f in os.walk(DIST) for x in f)
 print(f'dist/: {n} files, {size/1e6:.1f} MB')

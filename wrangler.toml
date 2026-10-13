@@ -1,4 +1,12 @@
-# Cloudflare Pages project config: static design showcase, no server functions.
+# Cloudflare Worker serving the static Maylene design showcase (no server code).
+# Deploy: Cloudflare runs `npx wrangler deploy`, which first runs [build] to assemble dist/.
 name = "maylene"
-pages_build_output_dir = "dist"
 compatibility_date = "2026-09-01"
+
+[build]
+command = "python3 tools/build_dist.py"
+
+[assets]
+directory = "./dist"
+not_found_handling = "404-page"
+html_handling = "auto-trailing-slash"

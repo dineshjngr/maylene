@@ -1,0 +1,157 @@
+{
+  "regionId": "reg_01M48X2PHWNXD1NSM7R83Y6XNG",
+  "products": [
+    {
+      "handle": "apex-bpc-157-10mg-pen",
+      "name": "BPC-157 10mg Pen",
+      "variantId": "variant_01M48X38B47D77Y3MHE9EG7S3Q",
+      "variant": "10 mg",
+      "image": "/_images/bpc-157-10mg-pen-studio-v1-w256-5c3f846e.webp",
+      "url": "/products/apex-bpc-157-10mg-pen"
+    },
+    {
+      "handle": "apex-bpc-157-tb-500-pen-bundle",
+      "name": "BPC-157 + TB-500 Pen Bundle",
+      "variantId": "variant_01M48X35KXMY30F9QSSRCFKRSM",
+      "variant": "2 products",
+      "image": "/_images/bpc-157-tb-500-pen-bundle-studio-v1-w256-11b42b45.webp",
+      "url": "/products/apex-bpc-157-tb-500-pen-bundle"
+    },
+    {
+      "handle": "apex-cagrilintide-10mg-pen",
+      "name": "Cagrilintide 10mg Pen",
+      "variantId": "variant_01M48X3083VCD0BBSPP1D0PS39",
+      "variant": "10 mg",
+      "image": "/_images/cagrilintide-10mg-pen-studio-v1-w256-c924625c.webp",
+      "url": "/products/apex-cagrilintide-10mg-pen"
+    },
+    {
+      "handle": "apex-ghk-cu-100mg-pen",
+      "name": "GHK-Cu 100mg Pen",
+      "variantId": "variant_01M48X33XD1K0ABSN19CZEG5XS",
+      "variant": "100 mg",
+      "image": "/_images/ghk-cu-100mg-pen-studio-v1-w256-ed6a2b35.webp",
+      "url": "/products/apex-ghk-cu-100mg-pen"
+    },
+    {
+      "handle": "apex-glow-70mg-pen",
+      "name": "Glow 70mg Pen",
+      "variantId": "variant_01M48X2ZK9MZKWAHYB3472Y23C",
+      "variant": "70 mg",
+      "image": "/_images/glow-70-studio-v1-w256-9336fc9e.webp",
+      "url": "/products/apex-glow-70mg-pen"
+    },
+    {
+      "handle": "apex-melanotan-ii-20mg-pen",
+      "name": "Melanotan II 20mg Pen",
+      "variantId": "variant_01M48X370GS7Q3TK2SCQZGFA4K",
+      "variant": "20 mg",
+      "image": "/_images/melanotan-ii-20mg-pen-studio-v1-w256-883360a1.webp",
+      "url": "/products/apex-melanotan-ii-20mg-pen"
+    },
+    {
+      "handle": "apex-mots-c-10mg-pen",
+      "name": "MOTS-C 10mg Pen",
+      "variantId": "variant_01M48X37H22021ST9374J7PY6X",
+      "variant": "10 mg",
+      "image": "/_images/mots-c-10mg-pen-studio-v1-w256-b429b677.webp",
+      "url": "/products/apex-mots-c-10mg-pen"
+    },
+    {
+      "handle": "apex-nad-500mg-pen",
+      "name": "NAD+ 500mg Pen",
+      "variantId": "variant_01M48X39YG7QP558PP1237ATF5",
+      "variant": "500 mg",
+      "image": "/_images/nad-500mg-pen-studio-v2-w256-2d3dfa5c.webp",
+      "url": "/products/apex-nad-500mg-pen"
+    },
+    {
+      "handle": "apex-retatrutide-20mg-pen",
+      "name": "Retatrutide 20mg Pen",
+      "variantId": "variant_01M48X2W8HETN4WQVTPY7TJTDN",
+      "variant": "20 mg",
+      "image": "/_images/retatrutide-20mg-pen-studio-v1-w256-d97897ab.webp",
+      "url": "/products/apex-retatrutide-20mg-pen"
+    },
+    {
+      "handle": "apex-retatrutide-40mg-pen-bundle",
+      "name": "Retatrutide 40mg Pen Bundle",
+      "variantId": "variant_01M48X366VC3D0224XGXZ84X29",
+      "variant": "2 pens × 40 mg",
+      "image": "/_images/retatrutide-40mg-pen-bundle-studio-v1-w256-bedc0629.webp",
+      "url": "/products/apex-retatrutide-40mg-pen-bundle"
+    },
+    {
+      "handle": "apex-retatrutide-40mg-pen",
+      "name": "Retatrutide 40mg Pen",
+      "variantId": "variant_01M48X2Y0ZV5DFACKEASAC96S6",
+      "variant": "40 mg",
+      "image": "/_images/retatrutide-40-studio-v1-w256-0884624f.webp",
+      "url": "/products/apex-retatrutide-40mg-pen"
+    },
+    {
+      "handle": "apex-retatrutide-60mg-pen",
+      "name": "Retatrutide 60mg Pen",
+      "variantId": "variant_01M48X2YXWDNG8MFG17Y81SHP8",
+      "variant": "60 mg",
+      "image": "/_images/retatrutide-60mg-pen-studio-v1-w256-b0052418.webp",
+      "url": "/products/apex-retatrutide-60mg-pen"
+    },
+    {
+      "handle": "apex-retatrutide-cagrilintide-45mg-pen",
+      "name": "Retatrutide + Cagrilintide 45mg Pen",
+      "variantId": "variant_01M48X3B75C8YAYTMY211M38SM",
+      "variant": "45 mg",
+      "image": "/_images/retatrutide-cagrilintide-45mg-pen-studio-v1-w256-e49ffdfb.webp",
+      "url": "/products/apex-retatrutide-cagrilintide-45mg-pen"
+    },
+    {
+      "handle": "apex-retatrutide-cagrilintide-pen-bundle",
+      "name": "Retatrutide + Cagrilintide Pen Bundle",
+      "variantId": "variant_01M48X34VB3V9DA0TZ8C8G7VK7",
+      "variant": "2 products",
+      "image": "/_images/retatrutide-cagrilintide-pen-bundle-studio-v1-w256-a8d602e0.webp",
+      "url": "/products/apex-retatrutide-cagrilintide-pen-bundle"
+    },
+    {
+      "handle": "apex-somatropin-40mg-pen",
+      "name": "Somatropin 40mg Pen",
+      "variantId": "variant_01M48X336XQHPQHKZ4GFZAKKNA",
+      "variant": "40 mg",
+      "image": "/_images/somatropin-40mg-pen-studio-v1-w256-590c67a7.webp",
+      "url": "/products/apex-somatropin-40mg-pen"
+    },
+    {
+      "handle": "apex-tb-500-10mg-pen",
+      "name": "TB-500 10mg Pen",
+      "variantId": "variant_01M48X394M7AA74JSVNJMQS712",
+      "variant": "10 mg",
+      "image": "/_images/tb-500-10mg-pen-studio-v1-w256-9eae36b6.webp",
+      "url": "/products/apex-tb-500-10mg-pen"
+    },
+    {
+      "handle": "apex-tirzepatide-40mg-pen",
+      "name": "Tirzepatide 40mg Pen",
+      "variantId": "variant_01M48X31HZP1A73NF5FSD2RT1Z",
+      "variant": "40 mg",
+      "image": "/_images/tirzepatide-40mg-pen-studio-v1-w256-69b4b555.webp",
+      "url": "/products/apex-tirzepatide-40mg-pen"
+    },
+    {
+      "handle": "apex-tirzepatide-60mg-pen",
+      "name": "Tirzepatide 60mg Pen",
+      "variantId": "variant_01M48X32EG6XTZE5MRED2VTGRM",
+      "variant": "60 mg",
+      "image": "/_images/tirzepatide-60mg-pen-studio-v1-w256-0d49f78b.webp",
+      "url": "/products/apex-tirzepatide-60mg-pen"
+    },
+    {
+      "handle": "apex-wolverine-40mg-pen",
+      "name": "Wolverine 40mg Pen",
+      "variantId": "variant_01M48X30S4C4WRM7JC0Q9X3BRG",
+      "variant": "40 mg",
+      "image": "/_images/wolverine-studio-v1-w256-87d9bc07.webp",
+      "url": "/products/apex-wolverine-40mg-pen"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "source": "https://www.maylene.uk/api/catalogue?resource=products",
+  "region_id": "reg_01M48X2PHWNXD1NSM7R83Y6XNG",
+  "products": [
+    {
+      "id": "prod_01M48X2VSNTPKEBG7H2TNDB93B",
+      "handle": "apex-retatrutide-20mg-pen",
+      "name": "Retatrutide 20mg Pen",
+      "category": "Research pens",
+      "url": "/products/apex-retatrutide-20mg-pen",
+      "image": "/redesign/assets/customer-favorites/apex-retatrutide-20mg-pen-768.jpg",
+      "image_small": "/redesign/assets/customer-favorites/apex-retatrutide-20mg-pen-384.jpg",
+      "badge": "Bestseller",
+      "variant_id": "variant_01M48X2W8HETN4WQVTPY7TJTDN",
+      "price": 129.99,
+      "original_price": 129.99,
+      "currency": "gbp",
+      "requires_options": false,
+      "stock": null
+    },
+    {
+      "id": "prod_01M48X30JWKE91BJTEQM3NR83V",
+      "handle": "apex-wolverine-40mg-pen",
+      "name": "Wolverine 40mg Pen",
+      "category": "Research pens",
+      "url": "/products/apex-wolverine-40mg-pen",
+      "image": "/redesign/assets/customer-favorites/apex-wolverine-40mg-pen-768.jpg",
+      "image_small": "/redesign/assets/customer-favorites/apex-wolverine-40mg-pen-384.jpg",
+      "badge": null,
+      "variant_id": "variant_01M48X30S4C4WRM7JC0Q9X3BRG",
+      "price": 149.99,
+      "original_price": 149.99,
+      "currency": "gbp",
+      "requires_options": false,
+      "stock": null
+    },
+    {
+      "id": "prod_01M48X383ZFPQ3Q79DKMHPSQBJ",
+      "handle": "apex-bpc-157-10mg-pen",
+      "name": "BPC-157 10mg Pen",
+      "category": "Research pens",
+      "url": "/products/apex-bpc-157-10mg-pen",
+      "image": "/redesign/assets/customer-favorites/apex-bpc-157-10mg-pen-768.jpg",
+      "image_small": "/redesign/assets/customer-favorites/apex-bpc-157-10mg-pen-384.jpg",
+      "badge": null,
+      "variant_id": "variant_01M48X38B47D77Y3MHE9EG7S3Q",
+      "price": 69.99,
+      "original_price": 69.99,
+      "currency": "gbp",
+      "requires_options": false,
+      "stock": null
+    },
+    {
+      "id": "prod_01M48X319NEZRFCFV0BBA37SRN",
+      "handle": "apex-tirzepatide-40mg-pen",
+      "name": "Tirzepatide 40mg Pen",
+      "category": "Research pens",
+      "url": "/products/apex-tirzepatide-40mg-pen",
+      "image": "/redesign/assets/customer-favorites/apex-tirzepatide-40mg-pen-768.jpg",
+      "image_small": "/redesign/assets/customer-favorites/apex-tirzepatide-40mg-pen-384.jpg",
+      "badge": "Bestseller",
+      "variant_id": "variant_01M48X31HZP1A73NF5FSD2RT1Z",
+      "price": 149.99,
+      "original_price": 149.99,
+      "currency": "gbp",
+      "requires_options": false,
+      "stock": null
+    }
+  ]
+}

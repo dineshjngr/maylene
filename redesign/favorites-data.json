@@ -1,0 +1,37 @@
+{
+  "regionId": "reg_01M48X2PHWNXD1NSM7R83Y6XNG",
+  "products": [
+    {
+      "handle": "apex-retatrutide-20mg-pen",
+      "name": "Retatrutide 20mg Pen",
+      "variantId": "variant_01M48X2W8HETN4WQVTPY7TJTDN",
+      "url": "/products/apex-retatrutide-20mg-pen",
+      "price": "129.99",
+      "currency": "GBP"
+    },
+    {
+      "handle": "apex-wolverine-40mg-pen",
+      "name": "Wolverine 40mg Pen",
+      "variantId": "variant_01M48X30S4C4WRM7JC0Q9X3BRG",
+      "url": "/products/apex-wolverine-40mg-pen",
+      "price": "149.99",
+      "currency": "GBP"
+    },
+    {
+      "handle": "apex-ghk-cu-100mg-pen",
+      "name": "GHK-Cu 100mg Pen",
+      "variantId": "variant_01M48X33XD1K0ABSN19CZEG5XS",
+      "url": "/products/apex-ghk-cu-100mg-pen",
+      "price": "99.99",
+      "currency": "GBP"
+    },
+    {
+      "handle": "apex-bpc-157-10mg-pen",
+      "name": "BPC-157 10mg Pen",
+      "variantId": "variant_01M48X38B47D77Y3MHE9EG7S3Q",
+      "url": "/products/apex-bpc-157-10mg-pen",
+      "price": "69.99",
+      "currency": "GBP"
+    }
+  ]
+}
